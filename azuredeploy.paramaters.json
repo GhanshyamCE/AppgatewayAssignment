@@ -1,0 +1,47 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appPlan-name": {
+      "value": "FunctionAppPlan"
+    },
+    "appPlan-skuName": {
+      "value": "S1"
+    },
+    "webAppName": {
+      "value": "rkfunction"
+    },
+    "customHostname": {
+      "value": "rkfunction.rkim.ca"
+    },
+    "sqlserver-name": {
+      "value": "testgatewayglobantsqlserver"
+    },
+    "sqldatabase-name": {
+      "value": "rkfunctiondb"
+    },
+    "sqlAdministratorLogin": {
+      "value": "sqladmin"
+    },
+    "sqlAdministratorLoginPassword": {
+      "value": "Password007"
+    },
+    "keyVaultName": {
+      "value":  "rkkv"
+    },
+    "objectId": {
+      "value": "f10271cb-e59a-4cce-874b-963d33f06cc7"
+    },
+    "existingKeyVaultId": {
+      "value":  "/subscriptions/de8b8186-01b8-4948-978f-f0dfd6a3655d/resourceGroups/Enterprise/providers/Microsoft.KeyVault/vaults/rkimKeyVault"
+    },
+    "existingKeyVaultSecretName": {
+      "value": "rkima6ad04d2-fe30-4790-be33-e3f51383c902"
+    },
+    "certificateName": {
+      "value": "rkim"
+    }
+    
+
+  }
+}
